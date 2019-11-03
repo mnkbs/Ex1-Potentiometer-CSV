@@ -1,4 +1,4 @@
-import serial
+import serial 
 
 ser = serial.Serial('/dev/cu.usbmodem145101')
 ser.flushInput()
